@@ -1,0 +1,14 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+*::after,::before{box-sizing: border-box;}
+
+h1{
+    display: block;
+    font-size: 2em;
+    /* 元素中文本的对齐方式 */
+    text-align: center;
+}
+
+.lxj{
+    
+}
+/*# sourceMappingURL=index.HASH_REF_f0918a547ace1733ebc251b0de60a1d7.css.map */

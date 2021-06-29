@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>哆啦A梦</title>
+</head>
+<body>
+    <h1>哆啦A梦</h1>
+    <div class="main">
+        <div class="lxj"></div>
+        <div class="duolahead"></div>
+        <div class="duolabody"></div>
+        <div class="duolahand"></div>
+        <div class="duolafoot"></div>
+    </div>
+</body>
+</html><script src="/index.HASH_REF_42412dc50fd44bf0205308ab01a1c8c0.js"></script>

@@ -1,0 +1,237 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+*::after,::before{box-sizing: border-box;}
+ul,ol,li{list-style: none;}
+
+h1{
+    display: block;
+    font-size: 2em;
+    /* 元素中文本的对齐方式 */
+    text-align: center;
+}
+
+.main{
+    border: 1px solid red;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    margin: 5% auto;
+}
+
+.lxj .lxj1{
+    border: 2px solid black;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    background: grey;
+    left: 50%;
+    margin-left: -50px;
+    top: 60px;
+    z-index: 2;
+}
+.lxj .lxj2{
+    border: 2px solid black;
+    width: 8px;
+    height: 30px;
+    position: absolute;
+    background: #fcc136;
+    top: 50px;
+    left: 50%;
+    margin-left: -4px;
+    z-index: 1;
+}
+.lxj .yuan{
+    border: 2px solid black;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    border-radius: 100px 100px 0 0;
+    background: #fcc136;
+    top: 50px;
+    left: 50%;
+    margin-left:-10px ;
+    z-index: 3;
+}
+
+.duolahead{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    left: 50%;
+    position: relative;
+    margin-left: -100px;
+    top: 75px;
+    border-radius: 50%;
+    background: #35a1c9;
+    overflow: hidden;
+}
+.duolahead .face{
+    width: 170px;
+    height: 170px;
+    border: 2px solid black;
+    position: absolute;
+    border-radius: 50%;
+    background: white;
+    left: 50%;
+    margin-left: -85px;
+    top: 50%;
+    margin-top: -85px;
+}
+.duolahead .face .eye{
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    margin-left: -24px;
+    background: white;
+    border-radius: 50%;
+}
+.face .eye.left{
+    transform: translateX(-24px);
+}
+.face .eye.right{
+    transform: translateX(24px);
+    overflow: hidden;
+}
+.face .eye.left .yanren1{
+    width: 23px;
+    height: 15px;
+    background: black;
+    border-radius: 100%;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 19px;
+    left: 22px;
+}
+.yanren1::before{
+    content: '';
+    width: 6px;
+    height: 3px;
+    border-radius: 100%;
+    background: white;
+    position: absolute;
+    top: 6px;
+    left: 9px;
+}
+.face .eye.right .yanren2{
+    width: 23px;
+    height: 22px;
+    border: 3px solid black;
+    border-radius: 100%;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 38px;
+    left: 12px;
+}
+
+.nose{
+    border: 2px solid black;
+    width: 34px;
+    height: 34px;
+    position:absolute;
+    left: 50%;
+    margin-left: -17px;
+    top: 55px;
+    border-radius: 50%;
+    background: #b11735;
+}
+.nose::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+.xian1{
+    width: 2px;
+    height: 20px;
+    background: black;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    top: 88px;
+}
+.mouth{
+    width: 140px;
+    height: 70px;
+    background: #b11635;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 140px 140px;
+    left: 50%;
+    margin-left: -70px;
+    top: 106px;
+}
+
+.she {
+    width: 100px;
+    height: 90px;
+    left: 50%;
+    position: relative;
+    margin-left: -50px;
+    top: 20px;
+}
+.she::before{
+    content: '';
+    width: 50px;
+    height: 80px;
+    background: #ca2533;
+    position: absolute;
+    transform: rotate(-45deg);
+    border-radius: 50px 50px 0 0;
+    left: 13px;
+}
+.she::after{
+    content: '';
+    width: 50px;
+    height: 80px;
+    background: #ca2533;
+    position: absolute;
+    transform: rotate(45deg);
+    border-radius: 50px 50px 0 0;
+    left: 38px;
+}
+
+.huxu {
+    position: relative;
+    left: 50%;
+    margin-left: -30px;
+    top: 100px;
+}
+
+.huxu.left{
+    position: absolute;
+    transform: translateX(-50px);
+}
+.huxu.right{
+    position: absolute;
+    transform: translateX(50px);
+}
+li{
+    width: 60px;
+    height: 2px;
+    background: black;
+}
+.a1{
+    transform-origin: right bottom;
+    transform:translateY(-26px) rotate(25deg);
+}
+.a2{
+    transform: translateY(-20px);
+}
+.a3{
+    transform: translateY(-14px) rotate(-25deg);
+}
+.b1{
+    transform: translateY(-26px);
+}
+.b2{
+    transform: translateY(-20px);
+}
+.b3{
+    transform: translateY(-14px);
+}
+/*# sourceMappingURL=index.HASH_REF_f0918a547ace1733ebc251b0de60a1d7.css.map */

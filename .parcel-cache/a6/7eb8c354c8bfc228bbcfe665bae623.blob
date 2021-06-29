@@ -1,0 +1,103 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+*::after,::before{box-sizing: border-box;}
+ul,ol{list-style: none;}
+
+h1{
+    display: block;
+    font-size: 2em;
+    /* 元素中文本的对齐方式 */
+    text-align: center;
+}
+
+.main{
+    border: 1px solid red;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    margin: 5% auto;
+}
+
+.lxj .lxj1{
+    border: 2px solid black;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    background: grey;
+    left: 50%;
+    margin-left: -50px;
+    top: 60px;
+    z-index: 2;
+}
+.lxj .lxj2{
+    border: 2px solid black;
+    width: 8px;
+    height: 30px;
+    position: absolute;
+    background: #fcc136;
+    top: 50px;
+    left: 50%;
+    margin-left: -4px;
+    z-index: 1;
+}
+.lxj .yuan{
+    border: 2px solid black;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    border-radius: 100px 100px 0 0;
+    background: #fcc136;
+    top: 50px;
+    left: 50%;
+    margin-left:-10px ;
+    z-index: 3;
+}
+
+.duolahead{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    left: 50%;
+    position: relative;
+    margin-left: -100px;
+    top: 75px;
+    border-radius: 50%;
+    background: #35a1c9;
+    overflow: hidden;
+}
+.duolahead .face{
+    width: 170px;
+    height: 170px;
+    border: 2px solid black;
+    position: absolute;
+    border-radius: 50%;
+    background: white;
+    left: 50%;
+    margin-left: -85px;
+    top: 50%;
+    margin-top: -85px;
+}
+.duolahead .face .eye{
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    margin-left: -24px;
+    background: white;
+    border-radius: 50%;
+}
+.face .eye.left{
+    transform: translateX(-24px);
+}
+.face .eye.right{
+    transform: translateX(24px);
+}
+.face .eye.left .yanren1{
+    width: 15px;
+    height: 23px;
+    background: black;
+    border-radius: 100%;
+    position: absolute;
+    top: 20px;
+    left: ;
+}

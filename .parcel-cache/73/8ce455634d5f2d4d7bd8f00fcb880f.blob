@@ -1,0 +1,10 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+*::after,::before{box-sizing: border-box;}
+
+h1{
+    border: 1px solid red;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+}
+/*# sourceMappingURL=index.HASH_REF_f0918a547ace1733ebc251b0de60a1d7.css.map */

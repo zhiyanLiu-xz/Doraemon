@@ -1,0 +1,36 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+*::after,::before{box-sizing: border-box;}
+
+h1{
+    display: block;
+    font-size: 2em;
+    /* 元素中文本的对齐方式 */
+    text-align: center;
+}
+
+.main{
+    border: 1px solid red;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    margin: 5% auto;
+}
+.main .lxj .lxj2{
+    border: 2px solid black;
+    width: 8px;
+    height: 30px;
+    position: absolute;
+    background: #fcc136;
+    z-index: 1;
+}
+.main .lxj .lxj2 .yuan{
+    border: 2px solid black;
+    width: 20px;
+    height: 10px;
+    position: relative;
+    border-radius: 100px 100px 0 0;
+    background: #bd8d22;
+    z-index: 5;
+}
+
+/*# sourceMappingURL=index.HASH_REF_f0918a547ace1733ebc251b0de60a1d7.css.map */

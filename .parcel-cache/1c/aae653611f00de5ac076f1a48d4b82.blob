@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="76d74868bf480873460adb8aad1df89c">
+    <title>哆啦A梦</title>
+</head>
+<body>
+    <h1 class="duola">哆啦A梦</h1>
+    <div class="main">
+        <div class="lxj">
+            <div class="lxj1"></div>
+            <div class="lxj2"></div>
+            <div class="yuan"></div>
+        </div>
+        <div class="duolahead">
+            <div class="face">
+                <div class="eye left">
+                    <div class="yanren1"></div>
+                </div>
+                <div class="eye right">
+                    <div class="yanren2"></div>
+                </div>
+            </div>
+            <div class="huxu left">
+                <li class="a1"></li>
+                <li class="a2"></li>
+                <li class="a3"></li>
+            </div>
+            <div class="huxu right">
+                <li class="b1"></li>
+                <li class="b2"></li>
+                <li class="b3"></li>
+            </div>
+            <div class="nose"></div>
+            <div class="xian1"></div>
+            <div class="mouth">
+                <div class="she"></div>
+            </div>
+        </div>
+        <div class="duolabody">
+            <div class="hand left">
+                <div class="yuan8"></div>
+            </div>
+            <div class="hand right">
+                <div class="yuan9"></div>
+            </div>
+            <div class="wj"></div>
+            <div class="bag"></div>
+            <div class="dang"></div>
+            <div class="foot left"></div>
+            <div class="foot right"></div>
+        </div>
+        
+        
+    </div>
+</body>
+<script src="67e2e1d839de85b19f58d77aecf7b303"></script>
+</html>

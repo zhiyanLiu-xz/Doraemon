@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.HASH_REF_f0918a547ace1733ebc251b0de60a1d7.css">
+    <title>哆啦A梦</title>
+</head>
+<body>
+    <h1 class="duola">哆啦A梦</h1>
+    <div class="main">
+        <div class="lxj">
+            <div class="lxj1"></div>
+            <div class="lxj2"></div>
+            <div class="yuan"></div>
+        </div>
+        <div class="duolahead">
+            <div class="face">
+                    <div class="eye left"></div>
+                    <div class="eye right"></div>
+            </div>
+            <div class="huxu"></div>
+            <div class="nose"></div>
+            <div class="mouth"></div>
+        </div>
+        <div class="duolabody"></div>
+        <div class="duolahand"></div>
+        <div class="duolafoot"></div>
+    </div>
+</body>
+<script src="/index.HASH_REF_e9312995559a911a6f9b63a6bd78eeec.js"></script>
+</html>
